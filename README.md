@@ -23,4 +23,8 @@ optional arguments:
   --csv CSV        CSV file containing fields to convert
   ```
   
-  `python ecs-mapper.py --url https://localhost:9200 --auth 'elastic:changeme' --cacert ./ca.pem --index "bro-network-2019.11.18"`
+Check against existing index:
+
+```
+python ecs-mapper.py --url https://localhost:9200 --auth 'elastic:changeme' --cacert ./ca.pem --index "bro-network-2019.11.18"
+```
