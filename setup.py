@@ -8,5 +8,5 @@ setup(
     license='Apache License 2.0',
     author='Bradford Dabbs',
     author_email='',
-    description=''
+    description='', install_requires=['elasticsearch', 'six']
 )
