@@ -1,6 +1,7 @@
 # Project Specific
 *.pem
 *.csv
+!ecs_schema.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
