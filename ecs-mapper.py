@@ -52,6 +52,8 @@ if args.index is not None:
     fields = es_connection()
 elif args.csv is not None:
     fields = import_csv(args.csv)
+else:
+    sys.exit('You must specify either an input CSV or an ES index to read source fields from')
 
 schema = import_csv("./ecs_schema.csv")
 
